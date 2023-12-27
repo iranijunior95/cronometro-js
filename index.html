@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro JS</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <div id="container">
+        <h1>CRONÔMETRO JS</h1>
+
+        <div id="conteudo">
+            <div id="visor-numeros">
+                <div id="minutos">00</div>
+                <div class="divisor">:</div>
+                <div id="segundos">00</div>
+                <div class="divisor">:</div>
+                <div id="milisegundos">00</div>
+            </div>
+
+            <div id="lista-botoes">
+                <button class="btns" id="btn-iniciar">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                    </span> INICIAR
+                </button>
+
+                <button class="btns" id="btn-pausar">
+                    <span class="material-symbols-outlined">
+                        pause_circle
+                    </span> PAUSAR
+                </button>
+
+                <button class="btns" id="btn-parar">
+                    <span class="material-symbols-outlined">
+                        stop_circle
+                    </span> PARAR
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
